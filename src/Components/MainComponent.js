@@ -18,7 +18,7 @@ class Main extends React.Component {
           <Route exact path="/falheavy" component={Falconheavy}></Route>
           <Route exact path="/star" component={Starship}></Route>
           <Route exact path="/dragon" component={Dragon}></Route>
-         <Redirect to='/home'></Redirect>
+          <Redirect to='/home'></Redirect>
         </Switch>
         <Footer></Footer>
       </React.Fragment>

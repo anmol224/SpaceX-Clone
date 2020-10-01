@@ -7,6 +7,13 @@
   
   
 }
+@media(max-width:500px)
+{
+  body 
+  {
+    overflow-x: hidden;
+  }
+}
 
 .container1 {
   position: relative;
@@ -21,7 +28,7 @@
   position: absolute;
   bottom: 100px;
   right: 220px;
-  margin: 0px;
+ 
   
 }
 .navbar-dark {
