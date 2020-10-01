@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/anmol224/SpaceX-Clone.git/precache-manifest.6a09c2742ae53a7ad39bc1522d44aa7a.js"
+  "/SpaceX-Clone/precache-manifest.feed66b57ac8b08b0e05d6e1a77aabc3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/anmol224/SpaceX-Clone.git/index.html", {
+workbox.routing.registerNavigationRoute("/SpaceX-Clone/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
