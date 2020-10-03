@@ -9,7 +9,7 @@ class Falcon extends Component {
     };
   }
   update = () => {
-    
+
     if (this.state.counter1 < 92) {
       this.setState({ counter1: this.state.counter1 + 1 });
     } else {
@@ -32,10 +32,10 @@ class Falcon extends Component {
     return (
       <React.Fragment>
         <div className="container-1" onLoad={this.update}>
-          <img src="images/falcon.jpg" height="670px" width="100%" alt='falcon'></img>
+          <img src="images/falcon.jpg" alt='falcon'></img>
           <div className="falcon-center">
-            <h1 style={{ color: "white", fontSize: "90px" }}>FALCON 9</h1>
-            <p style={{ fontSize: "20px", fontWeight: "bold" }}>
+            <h1 >FALCON 9</h1>
+            <p >
               FIRST ORBITAL CLASS ROCKET CAPABLE OF REFLIGHT
             </p>
           </div>
@@ -43,7 +43,7 @@ class Falcon extends Component {
         <div className="container-2">
           <div className="counters">
             <div className="counter1">
-              <span >{this.state.counter1}</span>
+              <span>{this.state.counter1}</span>
               <br></br>
               <p>TOTAL LAUNCHES</p>
             </div>
@@ -58,7 +58,7 @@ class Falcon extends Component {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className='container' >
           <div className="row">
             <div className="col-12 col-sm-5">
               <p className="text-left">
@@ -70,19 +70,19 @@ class Falcon extends Component {
                 turn drives down the cost of space access.
               </p>
             </div>
-            <div className="col-12 col-sm-5 offset-sm-1">
+            <div className="col-12 col-sm-5  align-self-center offset-sm-1">
               <img
                 src="images/f9.gif"
-                style={{ margin: "5rem", height: "300px", width: "370px" }}
+                className='firstimg'
                 alt="falcon"
               ></img>
             </div>
           </div>
-          <div className="row ">
+          <div className="row " style={{ marginTop: '6rem' }}>
             <div className="col-12 col-sm-5 ">
               <table
-                className="table text-white mt-2 "
-                style={{ marginTop: "3rem" }}
+                className="table text-white  "
+
               >
                 <tbody>
                   <tr>
@@ -91,7 +91,7 @@ class Falcon extends Component {
                     <td></td>
                     <td></td>
                     <td>
-                     70 m /<i style={{ color: "#ccc" }}>229.6 ft</i>
+                      70 m /<i style={{ color: "#ccc" }}>229.6 ft</i>
                     </td>
                   </tr>
                   <tr>
@@ -111,7 +111,7 @@ class Falcon extends Component {
                     <td>
                       549,054 Kg /
                       <i style={{ color: "#ccc" }}>
-                      1,207,920 lb
+                        1,207,920 lb
 
                       </i>
                     </td>
@@ -134,7 +134,7 @@ class Falcon extends Component {
                     <td></td>
                     <td></td>
                     <td>
-                     8,300 Kg/<i style={{ color: "#ccc" }}>18,300 lb</i>
+                      8,300 Kg/<i style={{ color: "#ccc" }}>18,300 lb</i>
                     </td>
                   </tr>
                   <tr>
@@ -150,29 +150,21 @@ class Falcon extends Component {
               </table>
             </div>
             <div className="col-12 col-sm-5 offset-sm-2">
-              <img className='f9'
+              <img
                 src="images/falcon.png"
-                style={{ height: "450px", width: "80px" }}
+                className='logoimg'
                 alt="falcon"
               ></img>
             </div>
+            <div className='col-12 col-sm-11  offset-sm-1  ' >
+              <h1 className='fheading'>FALCON 9 IN FLIGHT</h1>
+              <iframe width='820' height='445'
+                src="https://www.youtube.com/embed/sj9IJcETQT0?autoplay=1&mute=1"></iframe>
+            </div>
           </div>
+
         </div>
-        <hr></hr>
-        <div className="container  text-center" style={{ marginTop: "4rem" }}>
-          <h1 style={{ color: "white", marginTop: "8rem" }}>
-            FALCON 9 IN FLIGHT
-          </h1>
-          <iframe
-            width="850px"
-            height="460px"
-            title='falcon'
-            style={{ margin: "4rem" }}
-            src="https://www.youtube.com/embed/sj9IJcETQT0?autoplay=1&mute=1"
-          ></iframe>
-          <hr></hr>
-        </div>
-        <div className="container" style={{ minHeight: "600px" }}>
+        <div className="container" style={{ minHeight: "600px", marginTop: '1rem' }}>
           <div id="demo" className="carousel slide" data-ride="carousel">
             <ul className="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" className="active"></li>
@@ -183,61 +175,41 @@ class Falcon extends Component {
             </ul>
             <div className="carousel-inner">
               <div className="carousel-item active ">
-                <img src="images/f1.jpg" style={{ height: "70vh" }}   alt="falcon"></img>
+                <img src="images/f1.jpg" style={{ height: "70vh" }} alt="falcon"></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "18px",
-                    fontWeight: "bold",
-                  }}
+
                 >
-                  Falcon 9 lifts off with its Iridium-5 payload 
+                  Falcon 9 lifts off with its Iridium-5 payload
                 </span>
               </div>
               <div className="carousel-item">
-                <img src="images/fheavy1.jpg" style={{ height: "70vh" }}   alt="falcon"></img>
+                <img src="images/fheavy1.jpg" style={{ height: "70vh" }} alt="falcon"></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "17px",
-                    fontWeight: "bold",
-                  }}
+
                 >
                   Close-up on Merlin engines of Falcon 9 during Lift off
                 </span>
               </div>
               <div className="carousel-item ">
-                <img src="images/f3.jpg" style={{ height: "70vh" }}   alt="falcon"></img>
+                <img src="images/f3.jpg" style={{ height: "70vh" }} alt="falcon"></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "16px",
-                    fontWeight: "bold",
-                  }}
+
                 >
                   Falcon 9 with its Radarsat payload at sunset before Launch
                 </span>
               </div>
               <div className="carousel-item">
-                <img src="images/f4.jpg" style={{ height: "70vh" }}   alt="falcon"></img>
+                <img src="images/f4.jpg" style={{ height: "70vh" }} alt="falcon"></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "18px",
-                    fontWeight: "bold",
-                  }}
+
                 >
-                 Falcon 9 Lands at Cape Canaveral
+                  Falcon 9 Lands at Cape Canaveral
                 </span>
               </div>
               <div className="carousel-item">
-                <img src="images/f5.gif" style={{ height: "70vh" }}   alt="falcon"></img>
+                <img src="images/f5.gif" style={{ height: "70vh" }} alt="falcon"></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "18",
-                    fontWeight: "bold",
-                  }}
+
                 >
                   Falcon 9 Proves Reusability of Rockets
                 </span>
@@ -251,6 +223,9 @@ class Falcon extends Component {
             </a>
           </div>
         </div>
+
+
+
       </React.Fragment>
     );
   }

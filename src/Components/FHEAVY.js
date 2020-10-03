@@ -31,10 +31,10 @@ class Falconheavy extends Component {
     return (
       <React.Fragment>
         <div className="container-1" onLoad={this.update}>
-          <img src="images/fheavy1.jpg" height="670px" width="100%" alt='falheavy'></img>
+          <img src="images/fheavy1.jpg"  alt='falheavy'></img>
           <div className="falcon-center">
-            <h1 style={{ color: "white", fontSize: "90px" }}>FALCON HEAVY</h1>
-            <p style={{ fontSize: "30px", fontWeight: "bold" }}>
+            <h1 >FALCON HEAVY</h1>
+            <p >
               THE WORLD'S MOST POWERFUL ROCKET
             </p>
           </div>
@@ -71,18 +71,18 @@ class Falconheavy extends Component {
                 approximately eighteen 747 aircraft.
               </p>
             </div>
-            <div className="col-12 col-sm-5 offset-sm-1">
+            <div className="col-12 col-sm-5 offset-sm-1 align-self-center">
               <img
                 src="images/fh1.gif"
-                style={{ margin: "5rem", height: "300px", width: "370px" }}
+                className='firstimg'
                 alt='FalconHeavy'
               ></img>
             </div>
           </div>
-          <div className="row ">
+          <div className="row " style={{marginTop:'5rem'}}>
             <div className="col-12 col-sm-5 ">
               <table
-                className="table text-white mt-2 "
+                className="table text-white "
                 style={{ marginTop: "3rem" }}
               >
                 <tbody>
@@ -153,8 +153,8 @@ class Falconheavy extends Component {
             <div className="col-12 col-sm-5 offset-sm-2 ">
               <img 
                 src="images/fhlogo.jpg"
-              
-                style={{ height: "380px", width: "300px",margin:'auto' }}
+                  className='logoimg1'
+
                 alt="falconheavy"
               ></img>
             </div>
@@ -162,19 +162,19 @@ class Falconheavy extends Component {
         </div>
         <hr></hr>
         <div className="container  text-center" style={{ marginTop: "4rem" }}>
-          <h1 style={{ color: "white", marginTop: "8rem" }}>
+          <h1 className='fheading'>
           FALCON HEAVY FIRST FLIGHT
           </h1>
           <iframe
             width="820"
             height="445"
-            style={{ margin: "4rem" }}
+           
             title='falconheavy'
             src="https://www.youtube.com/embed/A0FZIwabctw?autoplay=1&mute=1"
           ></iframe>
           <hr></hr>
         </div>
-        <div className="container" style={{ minHeight: "600px" }}>
+        <div className="container" style={{ minHeight: "600px", marginTop: '1rem' }}>
           <div id="demo" className="carousel slide" data-ride="carousel">
             <ul className="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" className="active"></li>
@@ -187,11 +187,7 @@ class Falconheavy extends Component {
               <div className="carousel-item active ">
                 <img src="images/fheavy.jpg" style={{ height: "70vh" }} alt='FalconHeavy'></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "18px",
-                    fontWeight: "bold",
-                  }}
+                  
                 >
                   Falcon Heavy lifts off from pad 39A at Kennedy Space Center 
                 </span>
@@ -199,11 +195,7 @@ class Falconheavy extends Component {
               <div className="carousel-item">
                 <img src="images/fh2.jpg" style={{ height: "70vh" }}  alt='FalconHeavy'></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "20px",
-                    fontWeight: "bold",
-                  }}
+                  
                 >
                   Starman in Space
                 </span>
@@ -211,11 +203,7 @@ class Falconheavy extends Component {
               <div className="carousel-item ">
                 <img src="images/fheavy1.jpg" style={{ height: "70vh" }}  alt='FalconHeavy'></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "20px",
-                    fontWeight: "bold",
-                  }}
+                
                 >
                   All 27 Merlin Engines lit on Falcon Heavy
                 </span>
@@ -223,11 +211,7 @@ class Falconheavy extends Component {
               <div className="carousel-item">
                 <img src="images/fh4.gif" style={{ height: "70vh" }}  alt='FalconHeavy'></img>
                 <span 
-                  style={{
-                    color: "white",
-                    fontSize: "14px",
-                    fontWeight: "bold",
-                  }}
+                  
                 >
                  Falcon Heavy's side boosters land at LZ-1 and LZ-2 at Cape Canaveral
                 </span>
@@ -244,6 +228,7 @@ class Falconheavy extends Component {
         </div>
       </React.Fragment>
     );
+        
   }
 }
 export default Falconheavy;

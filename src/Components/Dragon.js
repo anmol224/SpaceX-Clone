@@ -31,10 +31,10 @@ class Dragon extends Component {
     return (
       <React.Fragment>
         <div className="container-1" onLoad={this.update}>
-          <img src="images/dragon.jpg" height="600px" width="100%" alt='dragon'></img>
+          <img src="images/dragon.jpg"  alt='dragon'></img>
           <div className="falcon-center">
-            <h1 style={{ color: "white", fontSize: "120px" }}>DRAGON</h1>
-            <p style={{ fontWeight: "bold", fontSize: "20px" }}>
+            <h1 >DRAGON</h1>
+            <p >
               SENDING CARGOS AND HUMANS INTO SPACE
             </p>
           </div>
@@ -68,17 +68,17 @@ class Dragon extends Component {
                 to take humans to the space station.
               </p>
             </div>
-            <div className="col-12 col-sm-5 offset-sm-1">
+            <div className="col-12 col-sm-5 offset-sm-1 align-self-center">
               <img
                 src="images/d1.png"
-                style={{ margin: "3.4rem", height: "250px", width: "300px" }}
+                className='firstimg'
                 alt="DRAGON"
               ></img>
             </div>
           </div>
-          <div className="row ">
+          <div className="row " style={{marginTop:'5rem'}}>
             <div className="col-12 col-sm-5 ">
-            <table className="table text-white mt-2 " style={{marginTop:'3rem'}}  >
+            <table className="table text-white " style={{marginTop:'3rem'}}  >
                 <tbody>
                   <tr>
                     <td>HEIGHT</td>
@@ -137,25 +137,25 @@ class Dragon extends Component {
                 </tbody>
               </table>
             </div>
-            <div className='col-12 col-sm-6 offset-sm-1 ' >
-              <img src='images/dr1.gif' style={{height:'380px',width:'330px'}} alt='dragon'></img>
+            <div className='col-12 col-sm-5 offset-sm-2 ' >
+              <img src='images/dr1.gif' className='logoimg1' alt='dragon'></img>
             </div>
           </div>
         </div>
         <hr></hr>
         <div className="container  text-center" style={{ marginTop: "4rem" }}>
-          <h1 style={{ color: "#ccc", marginTop: "8rem" }}>
+          <h1 className='fheading'>
             CREW DRAGON INTERIOR
           </h1>
           <iframe
             width="820"
             height="445"
-            style={{ margin: "4rem" }}
+           
             src="https://www.youtube.com/embed/xjSb_b4TtxI?autoplay=1&mute=1"  title='spacex'
           ></iframe>
           <hr></hr>
         </div>
-        <div className="container" style={{ minHeight: "600px" }}>
+        <div className="container" style={{ minHeight: "600px", marginTop: '1rem'  }}>
           <div id="demo" className="carousel slide" data-ride="carousel">
             <ul className="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" className="active"></li>
@@ -168,11 +168,7 @@ class Dragon extends Component {
               <div className="carousel-item active ">
                 <img src="images/c1.jpg" style={{ height: "500px" }}  alt='dragon'></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "20px",
-                    fontWeight: "bold",
-                  }}
+                  
                 >
                   Cargo Dragon Approaching The ISS
                 </span>
@@ -180,11 +176,7 @@ class Dragon extends Component {
               <div className="carousel-item">
                 <img src="images/c2.jpg" style={{ height: "500px" }}  alt='dragon'></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "20px",
-                    fontWeight: "bold",
-                  }}
+                 
                 >
                   Dragon Approaching The ISS
                 </span>
@@ -192,11 +184,7 @@ class Dragon extends Component {
               <div className="carousel-item ">
                 <img src="images/c3.jpg" style={{ height: "500px" }}  alt='dragon'></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "20px",
-                    fontWeight: "bold",
-                  }}
+                 
                 >
                   Docking Process Going On
                 </span>
@@ -204,11 +192,7 @@ class Dragon extends Component {
               <div className="carousel-item">
                 <img src="images/c4.jpg" style={{ height: "500px" }}  alt='dragon'></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "20px",
-                    fontWeight: "bold",
-                  }}
+                  
                 >
                   Doug Hurley's and Bob Behnken On Their Way to ISS
                 </span>
@@ -216,11 +200,7 @@ class Dragon extends Component {
               <div className="carousel-item">
                 <img src="images/c5.jpg" style={{ height: "500px" }}  alt='dragon'></img>
                 <span
-                  style={{
-                    color: "white",
-                    fontSize: "20px",
-                    fontWeight: "bold",
-                  }}
+                
                 >
                   INTERIOR Of DRAGON CAPSULE
                 </span>

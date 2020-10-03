@@ -7,6 +7,9 @@ import Starship from "./Starship";
 import Dragon from "./Dragon";
 import Home from './Homecomponent'
 import Footer from './Footer'
+import Learn from './Learn'
+import Update from './Update'
+import Lunar from './Lunarupdate'
 class Main extends React.Component {
   render() {
     return (
@@ -18,6 +21,9 @@ class Main extends React.Component {
           <Route exact path="/falheavy" component={Falconheavy}></Route>
           <Route exact path="/star" component={Starship}></Route>
           <Route exact path="/dragon" component={Dragon}></Route>
+          <Route exact path='/learn' component={Learn}></Route>
+          <Route exact path='/update' component={Update}></Route>
+          <Route exact path='/lunar' component={Lunar}></Route>
           <Redirect to='/home'></Redirect>
         </Switch>
         <Footer></Footer>

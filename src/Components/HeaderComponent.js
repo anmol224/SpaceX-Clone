@@ -30,11 +30,11 @@ class Header extends Component {
       <React.Fragment>
         <Navbar expand="sm" dark fixed="top">
           <div className="container ">
-            <NavbarToggler onClick={this.opentoggler}></NavbarToggler>
+            <NavbarToggler  onClick={this.opentoggler}></NavbarToggler>
             <NavbarBrand>
-              <NavLink to="/home">
+              <NavLink to="/home" className='ml-auto'>
                 {" "}
-                <img src="images/Untitlede.png" height="60" width="280" alt='SpaceX'></img>
+                <img  src="images/Untitlede.png" height="60" width="230" alt='SpaceX'></img>
               </NavLink>
             </NavbarBrand>
             <Collapse isOpen={this.state.isNavOpen} navbar>

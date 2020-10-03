@@ -1,20 +1,17 @@
- <div className="container3">
-          <div className="bottom-right1">
-            <img src="images/lunar.jpg" width="100%" height="560px"></img>
-            <div className="text-right">
-              <p style={{ fontSize: "20px", marginRight: "20rem" }}>05/01/20</p>
-              <h4>NASA SELECTS LUNAR</h4>
-              <h4>OPTIMIZED STARSHIP</h4>
-              <p style={{ marginRight: "18px", fontSize: "15px" }}>
-                NASA selected SpaceX to develop a lunar optimized Starship to{" "}
-                <br></br>
-                transport crew between lunar orbit and the surface of the Moon
-                <br></br>
-                as part of NASA’s Artemis program.{" "}
+ <div className="row">
+            <div className="col-12 col-sm-5">
+              <p >STARSHIP USES</p>
+              <h1 >SATELLITES</h1>
+              <p >
+                Starship is designed to deliver satellites further and at a
+                lower marginal cost per launch than our current Falcon vehicles.
+                With a payload compartment larger than any fairing currently in
+                operation or development, Starship creates possibilities for new
+                missions, including space telescopes even larger than the James
+                Webb.
               </p>
-              <a type="button" className="btn btn-outline-light btn-lg">
-                LEARN MORE
-              </a>
+            </div>
+            <div className="col-12 col-sm-5 offset-sm-1  ">
+              <img src="images/satel.gif" style={{ margin: "1.3rem" }} alt='starship'></img>
             </div>
           </div>
-        </div>

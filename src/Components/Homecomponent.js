@@ -1,24 +1,26 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom'
 class Home extends Component {
   render() {
     return (
       <React.Fragment>
         <div className="container1">
           <img
-            src="images/first.jpg"
+            src="images/gps.jpg"
             width="100%"
             height="660px"
             alt="falcon9"
           ></img>
           <div className="bottom-right">
-            <p style={{ fontSize: "35px" }}>
-              UPCOMING LAUNCH
+            <p >
+            UPCOMING LAUNCH
+
             </p>
-            <p style={{ fontSize: "40px", fontWeight: 'bold' }}>
-              STARLINK MISSION
+            <p className='c1' style={{fontWeight: 'bold' }}>
+            GPS III SPACE VEHICLE 04 MISSION
             </p>{" "}
             <br></br>
-            <button className="btn btn-outline-light btn-lg">UPDATE</button>
+          <Link to='/update'>  <button className="btn btn-outline-light btn-lg">UPDATE</button></Link>
           </div>
         </div>
 
@@ -35,29 +37,12 @@ class Home extends Component {
             <h4>SPACEFLIGHTS TO THE</h4>
 
             <h4>TO THE UNITED STATES</h4>
-            <a type="button" href="#" className="btn btn-outline-dark btn-lg">
+          <Link to='/learn'> <a type="button" href="#" className="btn btn-outline-dark btn-lg">
               LEARN MORE
-            </a>
+            </a></Link>
           </div>
         </div>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-12 col-sm-5 align-self-center ' style={{marginTop:'3rem'}}>
-              <h3 style={{color:"white",fontSize:'50px'}}>CREW DRAGON ANIMATION</h3>
-              <p  style={{color:"white"}}>Crew Dragon is designed to autonomously dock and undock with the International Space Station. However, the crew can take manual control of the spacecraft if necessary.</p>
-            </div>
-            <div className='col-12 col-sm-5 '>
-            <iframe
-            width="600"
-            height="445"
-            title='ISS'
-            style={{ margin: "4rem",fontSize:'10px' }}
-            src="https://www.youtube.com/embed/sZlzYzyREAI?autoplay=1&mute=1"
-          ></iframe>
-            </div>
-          </div>
-
-        </div>
+      
         <div className="container3" style={{ marginBottom: '2rem' }}>
 
           <img src="images/lunar.jpg" width="100%" height="570px"></img>
@@ -72,9 +57,9 @@ class Home extends Component {
                 <br></br>
                 as part of NASA’s Artemis program.
               </p>
-            <a type="button" className="btn btn-outline-light btn-lg">
+           <Link to='/lunar'> <a type="button" className="btn btn-outline-light btn-lg">
               LEARN MORE
-              </a>
+              </a></Link>
           </div>
 
         </div>
