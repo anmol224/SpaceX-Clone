@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "0262d2eb10cc93f6d838",
-    "url": "/SpaceX-Clone/static/css/main.6e2cca7c.chunk.css"
+    "revision": "7f04874609a4633a5e27",
+    "url": "/SpaceX-Clone/static/css/main.0d17b067.chunk.css"
   },
   {
-    "revision": "0262d2eb10cc93f6d838",
-    "url": "/SpaceX-Clone/static/js/main.0e0824d6.chunk.js"
+    "revision": "7f04874609a4633a5e27",
+    "url": "/SpaceX-Clone/static/js/main.94739105.chunk.js"
   },
   {
     "revision": "fa80f98ca7d3a98d37a4",
     "url": "/SpaceX-Clone/static/js/runtime~main.ca2a79e8.js"
   },
   {
-    "revision": "a5d06165dbb8da70b239",
+    "revision": "b425f68aa95db621f84d",
     "url": "/SpaceX-Clone/static/css/2.b495f568.chunk.css"
   },
   {
-    "revision": "a5d06165dbb8da70b239",
-    "url": "/SpaceX-Clone/static/js/2.b46839a3.chunk.js"
+    "revision": "b425f68aa95db621f84d",
+    "url": "/SpaceX-Clone/static/js/2.11ebdb95.chunk.js"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -32,15 +32,15 @@ self.__precacheManifest = [
     "url": "/SpaceX-Clone/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/SpaceX-Clone/static/media/fontawesome-webfont.b06871f2.ttf"
-  },
-  {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/SpaceX-Clone/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "d6ab3d046f5dc6024c9ee464fc596d24",
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/SpaceX-Clone/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "dea9038e4914249a989fe3b30fdf05a6",
     "url": "/SpaceX-Clone/index.html"
   }
 ];
