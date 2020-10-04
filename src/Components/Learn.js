@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import { Button } from 'reactstrap'
 class Learn extends Component {
     render() {
         return (
             <React.Fragment>
                 <div className='container' style={{ marginTop: '6rem' }}>
                     <div className='col-12 col-sm-12 align-self-center'>
-                        <iframe width='1090' height='480' src='https://www.youtube.com/embed/xY96v0OIcK4?autoplay=0&mute=1'></iframe>
+                        <iframe id='video' width='1090' height='480' src='https://www.youtube.com/embed/xY96v0OIcK4?autoplay=0&mute=1'></iframe>
                     </div>
                     <span style={{ color: '#ccc' }}>MAY 30,2020</span><br></br>
                     <div className='col-10 col-sm-7'>
@@ -21,6 +22,7 @@ class Learn extends Component {
                     </div>
                     <div className='col-12 '>
                         <p className='l2'>You can watch a replay of the launch above.</p>
+                        <a className='btn btn-outline-secondary  btn-lg' href='#video'>WATCH NOW</a>
                     </div>
                 </div>
             </React.Fragment>

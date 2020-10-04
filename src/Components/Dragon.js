@@ -53,7 +53,7 @@ class Dragon extends Component {
             </div>
             <div className="counter3">
               <span>{this.state.counter3}</span> <br></br>
-              <p style={{fontSize:'18px'}}>REFLOWN MISSIONS</p>
+              <p >REFLOWN MISSIONS</p>
             </div>
           </div>
         </div>

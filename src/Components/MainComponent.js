@@ -10,11 +10,13 @@ import Footer from './Footer'
 import Learn from './Learn'
 import Update from './Update'
 import Lunar from './Lunarupdate'
+
 class Main extends React.Component {
   render() {
     return (
       <React.Fragment>
         <Header></Header>
+       
         <Switch>
           <Route path='/home' component={Home}></Route>
           <Route exact path="/falcon9" component={Falcon}></Route>
@@ -26,6 +28,8 @@ class Main extends React.Component {
           <Route exact path='/lunar' component={Lunar}></Route>
           <Redirect to='/home'></Redirect>
         </Switch>
+       
+        
         <Footer></Footer>
       </React.Fragment>
     );

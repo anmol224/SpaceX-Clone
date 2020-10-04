@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+
+
 class Falcon extends Component {
   constructor(props) {
     super(props);
@@ -33,12 +35,14 @@ class Falcon extends Component {
       <React.Fragment>
         <div className="container-1" onLoad={this.update}>
           <img src="images/falcon.jpg" alt='falcon'></img>
-          <div className="falcon-center">
+          
+          <div className="falcon-center" >
             <h1 >FALCON 9</h1>
             <p >
               FIRST ORBITAL CLASS ROCKET CAPABLE OF REFLIGHT
             </p>
           </div>
+         
         </div>
         <div className="container-2">
           <div className="counters">
@@ -60,8 +64,9 @@ class Falcon extends Component {
         </div>
         <div className='container' >
           <div className="row">
-            <div className="col-12 col-sm-5">
-              <p className="text-left">
+            <div className="col-12 col-sm-5"  >
+             
+              <p className="text-left"  >
                 Falcon 9 is a reusable, two-stage rocket designed and
                 manufactured by SpaceX for the reliable and safe transport of
                 people and payloads into Earth orbit and beyond. Falcon 9 is the
@@ -69,8 +74,9 @@ class Falcon extends Component {
                 SpaceX to refly the most expensive parts of the rocket, which in
                 turn drives down the cost of space access.
               </p>
+             
             </div>
-            <div className="col-12 col-sm-5  align-self-center offset-sm-1">
+            <div className="col-12 col-sm-5  align-self-center offset-sm-1"    >
               <img
                 src="images/f9.gif"
                 className='firstimg'
